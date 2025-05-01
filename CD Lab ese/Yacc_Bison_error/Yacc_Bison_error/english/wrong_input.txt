@@ -1,0 +1,6 @@
+the boy eats food
+boy eats food.
+the eats boy food.
+the boy food.
+the boy runs food.
+this is wrong.

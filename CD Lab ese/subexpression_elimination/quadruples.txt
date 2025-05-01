@@ -1,0 +1,6 @@
+5
++ a b t1
+- x y t2
++ a b t3
+* t2 z t4
++ a b t5

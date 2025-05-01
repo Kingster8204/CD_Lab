@@ -1,0 +1,13 @@
+bison -d while_error.y
+
+flex while_error.l
+
+On Linux : 
+    gcc while_error.tab.c lex.yy.c -o while_error
+
+    ./while_error
+
+On Windows : 
+    gcc -mconsole while_error.tab.c lex.yy.c -o while_error
+
+    while_error.exe

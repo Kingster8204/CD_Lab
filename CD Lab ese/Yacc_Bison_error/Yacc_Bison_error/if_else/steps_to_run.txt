@@ -1,0 +1,13 @@
+bison -d if_else.y
+
+flex if_else.l
+
+On Linux : 
+    gcc if_else.tab.c lex.yy.c -o if_else
+
+    ./if_else
+
+On windows : 
+    gcc -mconsole if_else.tab.c lex.yy.c -o if_else
+
+    if_else.exe 

@@ -1,0 +1,5 @@
+The dog chased the cat.
+Another dog barked.
+A lion roared.
+Cats and lions are different from a dog.
+cat dog lion lion

@@ -1,0 +1,9 @@
+Enter expressions or assignments (Ctrl+D to stop):
+a = 5
+Assigned a = 5
+b = 3
+Assigned b = 3
+a + b * 2
+Result = 11
+(a + b) * 2
+Result = 16

@@ -1,0 +1,15 @@
+bison -d english.y
+
+flex english.l
+
+On Linux : 
+    gcc english.tab.c lex.yy.c -o english
+
+    ./english
+
+On Windows : 
+    gcc -mconsole english.tab.c lex.yy.c -o english
+
+    english.exe 
+
+**Note** {if you want to parse the wrong input paste the wrong input text in the input.txt}

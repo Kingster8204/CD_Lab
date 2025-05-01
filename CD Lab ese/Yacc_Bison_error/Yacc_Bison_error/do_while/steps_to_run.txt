@@ -1,0 +1,14 @@
+bison -d do_while.y
+
+flex do_while.l
+
+On Linux : 
+    gcc do_while.tab.c lex.yy.c -o do_while
+
+    ./do_while
+
+On Windows : 
+    gcc -mconsole do_while.tab.c lex.yy.c -o do_while
+
+    do_while.exe 
+    

@@ -1,0 +1,15 @@
+bison -d sql_error.y
+
+flex sql_error.l
+
+On Linux : 
+    gcc sql_error.tab.h lex.yy.c -o sql_error
+
+    ./sql_error
+
+On Windows : 
+    gcc -mconsole sql_error.tab.h lex.yy.c -o sql_error
+
+    sql_error.exe 
+
+    

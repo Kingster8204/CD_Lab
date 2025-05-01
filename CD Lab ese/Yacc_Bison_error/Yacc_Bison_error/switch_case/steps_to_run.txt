@@ -1,0 +1,14 @@
+bison -d switch_case.y
+
+flex switch_case.l
+
+On Linux : 
+    gcc switch_case.tab.c lex.yy.c -o switch_case
+
+    ./switch_case
+
+On Windows : 
+    gcc -mconsole switch_case.tab.c lex.yy.c -o switch_case
+
+    switch_case.exe 
+    
